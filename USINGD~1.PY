@@ -1,6 +1,5 @@
 from datetime import datetime
+s = "2023-07-21 10:30:45"
+dt = datetime.strptime(s, "%Y-%m-%d %H:%M:%S")
 
-s = "20/01/2020"
-dt = datetime.strptime(s, "%d/%m/%Y")
-res = dt.timestamp()
-print(res)
+print(dt)
